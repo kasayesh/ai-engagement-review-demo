@@ -1,6 +1,17 @@
 # AI Engagement Review — Portfolio Demo
 ![Workflow overview](codex-clipboard-92e7ba28-6f63-4a6b-9904-d488671b46f3.png)
 
+## Demo results
+
+| Test | Score | Outcome |
+|---|---:|---|
+| Relevant post — approved | 85 | Approved; publishing disconnected |
+| Relevant post — rejected | 85 | Rejected; not published |
+| Unrelated post | 10 | Skipped; no approval requested |
+
+Tests used fictional posts. This demo does not monitor or publish to X.
+
+
 A manually triggered n8n prototype that evaluates a fictional technology post, drafts a reply, requests human approval, and records the outcome. It demonstrates workflow orchestration, structured-response validation, human review, logging, and error handling.
 
 **Status: demonstration only. No live X monitoring or publishing. Run one post and one execution at a time.**
